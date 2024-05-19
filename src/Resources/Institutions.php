@@ -1,8 +1,8 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Resources;
+namespace Aiwsystems\Plaid\Resources;
 
-use TomorrowIdeas\Plaid\PlaidRequestException;
+use Aiwsystems\Plaid\PlaidRequestException;
 
 class Institutions extends AbstractResource
 {

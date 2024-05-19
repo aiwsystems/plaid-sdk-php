@@ -1,6 +1,6 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Entities;
+namespace Aiwsystems\Plaid\Entities;
 
 use DateTime;
 use InvalidArgumentException;

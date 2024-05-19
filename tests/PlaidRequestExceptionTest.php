@@ -1,13 +1,13 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Tests;
+namespace Aiwsystems\Plaid\Tests;
 
 use Capsule\Response;
-use TomorrowIdeas\Plaid\PlaidRequestException;
+use Aiwsystems\Plaid\PlaidRequestException;
 
 /**
- * @covers TomorrowIdeas\Plaid\PlaidRequestException
- * @uses TomorrowIdeas\Plaid\PlaidException
+ * @covers Aiwsystems\Plaid\PlaidRequestException
+ * @uses Aiwsystems\Plaid\PlaidException
  */
 class PlaidRequestExceptionTest extends TestCase
 {

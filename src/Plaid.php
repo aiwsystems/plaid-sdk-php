@@ -1,29 +1,29 @@
 <?php
 
-namespace TomorrowIdeas\Plaid;
+namespace Aiwsystems\Plaid;
 
 use Psr\Http\Client\ClientInterface;
 use ReflectionClass;
 use Shuttle\Shuttle;
-use TomorrowIdeas\Plaid\Resources\AbstractResource;
+use Aiwsystems\Plaid\Resources\AbstractResource;
 use UnexpectedValueException;
 
 /**
- * @property \TomorrowIdeas\Plaid\Resources\Accounts $accounts
- * @property \TomorrowIdeas\Plaid\Resources\Auth $auth
- * @property \TomorrowIdeas\Plaid\Resources\BankTransfers $bank_transfers
- * @property \TomorrowIdeas\Plaid\Resources\Categories $categories
- * @property \TomorrowIdeas\Plaid\Resources\Institutions $institutions
- * @property \TomorrowIdeas\Plaid\Resources\Investments	$investments
- * @property \TomorrowIdeas\Plaid\Resources\Items $items
- * @property \TomorrowIdeas\Plaid\Resources\Liabilities $liabilities
- * @property \TomorrowIdeas\Plaid\Resources\Tokens $tokens
- * @property \TomorrowIdeas\Plaid\Resources\Payments $payments
- * @property \TomorrowIdeas\Plaid\Resources\Processors $processors
- * @property \TomorrowIdeas\Plaid\Resources\Reports $reports
- * @property \TomorrowIdeas\Plaid\Resources\Sandbox $sandbox
- * @property \TomorrowIdeas\Plaid\Resources\Transactions $transactions
- * @property \TomorrowIdeas\Plaid\Resources\Webhooks $webhooks
+ * @property \Aiwsystems\Plaid\Resources\Accounts $accounts
+ * @property \Aiwsystems\Plaid\Resources\Auth $auth
+ * @property \Aiwsystems\Plaid\Resources\BankTransfers $bank_transfers
+ * @property \Aiwsystems\Plaid\Resources\Categories $categories
+ * @property \Aiwsystems\Plaid\Resources\Institutions $institutions
+ * @property \Aiwsystems\Plaid\Resources\Investments	$investments
+ * @property \Aiwsystems\Plaid\Resources\Items $items
+ * @property \Aiwsystems\Plaid\Resources\Liabilities $liabilities
+ * @property \Aiwsystems\Plaid\Resources\Tokens $tokens
+ * @property \Aiwsystems\Plaid\Resources\Payments $payments
+ * @property \Aiwsystems\Plaid\Resources\Processors $processors
+ * @property \Aiwsystems\Plaid\Resources\Reports $reports
+ * @property \Aiwsystems\Plaid\Resources\Sandbox $sandbox
+ * @property \Aiwsystems\Plaid\Resources\Transactions $transactions
+ * @property \Aiwsystems\Plaid\Resources\Webhooks $webhooks
  */
 class Plaid
 {
@@ -108,7 +108,7 @@ class Plaid
 
 			$resource = \str_replace([" "], "", \ucwords(\str_replace(["_"], " ", $resource)));
 
-			$resource_class = "\\TomorrowIdeas\\Plaid\\Resources\\" . $resource;
+			$resource_class = "\\Aiwsystems\\Plaid\\Resources\\" . $resource;
 
 			if( !\class_exists($resource_class) ){
 				throw new UnexpectedValueException("Unknown Plaid resource: {$resource}");

@@ -1,6 +1,6 @@
 <?php
 
-namespace TomorrowIdeas\Plaid;
+namespace Aiwsystems\Plaid;
 
 use Psr\Http\Message\ResponseInterface;
 

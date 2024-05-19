@@ -1,15 +1,15 @@
 <?php
 
-use TomorrowIdeas\Plaid\Entities\AccountFilters;
-use TomorrowIdeas\Plaid\Entities\User;
-use TomorrowIdeas\Plaid\Tests\TestCase;
+use Aiwsystems\Plaid\Entities\AccountFilters;
+use Aiwsystems\Plaid\Entities\User;
+use Aiwsystems\Plaid\Tests\TestCase;
 
 /**
- * @covers TomorrowIdeas\Plaid\Plaid
- * @covers TomorrowIdeas\Plaid\Resources\AbstractResource
- * @covers TomorrowIdeas\Plaid\Resources\tokens
- * @covers TomorrowIdeas\Plaid\Entities\AccountFilters
- * @covers TomorrowIdeas\Plaid\Entities\User
+ * @covers Aiwsystems\Plaid\Plaid
+ * @covers Aiwsystems\Plaid\Resources\AbstractResource
+ * @covers Aiwsystems\Plaid\Resources\tokens
+ * @covers Aiwsystems\Plaid\Entities\AccountFilters
+ * @covers Aiwsystems\Plaid\Entities\User
  */
 class TokensTest extends TestCase
 {

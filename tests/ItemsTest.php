@@ -1,11 +1,11 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Tests;
+namespace Aiwsystems\Plaid\Tests;
 
 /**
- * @covers TomorrowIdeas\Plaid\Plaid
- * @covers TomorrowIdeas\Plaid\Resources\AbstractResource
- * @covers TomorrowIdeas\Plaid\Resources\Items
+ * @covers Aiwsystems\Plaid\Plaid
+ * @covers Aiwsystems\Plaid\Resources\AbstractResource
+ * @covers Aiwsystems\Plaid\Resources\Items
  */
 class ItemsTest extends TestCase
 {

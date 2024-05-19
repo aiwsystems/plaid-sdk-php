@@ -1,10 +1,10 @@
 <?php
-namespace TomorrowIdeas\Plaid\Tests;
+namespace Aiwsystems\Plaid\Tests;
 
-use TomorrowIdeas\Plaid\Entities\BacsAccount;
+use Aiwsystems\Plaid\Entities\BacsAccount;
 
 /**
- * @covers TomorrowIdeas\Plaid\Entities\BacsAccount
+ * @covers Aiwsystems\Plaid\Entities\BacsAccount
  */
 class BacsAccountEntityTest extends TestCase
 {

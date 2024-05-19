@@ -1,11 +1,11 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Tests;
+namespace Aiwsystems\Plaid\Tests;
 
 /**
- * @covers TomorrowIdeas\Plaid\Plaid
- * @covers TomorrowIdeas\Plaid\Resources\AbstractResource
- * @covers TomorrowIdeas\Plaid\Resources\Sandbox
+ * @covers Aiwsystems\Plaid\Plaid
+ * @covers Aiwsystems\Plaid\Resources\AbstractResource
+ * @covers Aiwsystems\Plaid\Resources\Sandbox
  */
 class SandboxTest extends TestCase
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace TomorrowIdeas\Plaid\Resources;
+namespace Aiwsystems\Plaid\Resources;
 
 use Capsule\Request;
 use Psr\Http\Client\ClientInterface;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use TomorrowIdeas\Plaid\Plaid;
-use TomorrowIdeas\Plaid\PlaidRequestException;
+use Aiwsystems\Plaid\Plaid;
+use Aiwsystems\Plaid\PlaidRequestException;
 use UnexpectedValueException;
 
 abstract class AbstractResource
