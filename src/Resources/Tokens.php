@@ -82,7 +82,15 @@ class Tokens extends AbstractResource
 			];
 		}
 
-		if( $institution_id ){
+		if( $institution_id){
+			if($country_codes && array_search("US",$country_codes)){
+
+			    $params["link_sessions"]=[
+					"institution"=>[
+						"institution_id"=>$institution_id
+					]
+				];
+			}else
 			$params["institution_id"] = $institution_id;
 		}
 
